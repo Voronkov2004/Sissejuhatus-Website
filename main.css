@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Lisa väike ülaosa (marginaal) */
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start; /* Algus (vasakule) joondamine */
+    align-items: flex-start; /* Algus (üles) joondamine */
+}
+
+.text {
+    text-align: left;
+    margin-left: 20px; /* Vahemik teksti ja pildi vahel */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.dynamic-image {
+    width: 300px;
+    height: 400px;
+    transition: transform 0.3s ease-in-out; /* Lisame ülemineku efekti */
+}
+
+.dynamic-image:hover {
+    transform: scale(1.1); /* Suurendame pilti, kui hiir on peale */
+    src:  url('pictures/esimene-abi.jpg'); /* Muudame pildi lähtekoha hiire peal */
+}
