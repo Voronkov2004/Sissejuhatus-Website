@@ -1,4 +1,10 @@
-body {
+/* IGAKS JUHUKS KÕIK OLULISED KOMENTAARID ON LÕPPUS, HAKKASIN SEALT NEED TEGEMA, ÜLEVAL EI TAHA NEED
+ENAM TEHA, ET KUI TEE EI SAA MIDAGI ARU, VAADAKE LÕPPUS*/
+
+/* ISEGI SEAL KUI MA PALUN TEID MITTE MIDAGI EI TEHA, SAATA VAHETADA SEADMED MIS ON NUMBRIGA,
+NÄGU "height: 100%"   AGA KUI VAHETATE MIDAGI, SIIS PALUN PÄRAST MUUTUGE SEDA TAGASI NAGU SEE OLI ENNE*/
+
+body {   /* "body" seadmed */
     font-family: Garamond, serif;
     margin: 0;
     padding: 0px;
@@ -7,7 +13,7 @@ body {
     background-color: #221b1b;
 }
 
-.image-background {
+.image-background {  /* Siin palun teid mitte midagi ei teha, see võttis mul kõige rohkem aega */
     position: relative;
     height: 850px;
     width: 100%;
@@ -18,7 +24,7 @@ body {
     align-items: center;
 }
 
-.image-background::before {
+.image-background::before {  /* Siin sama lugu nagu eelmisel */
     content: '';
     position: absolute;
     top: 0;
@@ -26,7 +32,7 @@ body {
     width: 100%;
     height: 100%;
     background: url('pictures/first-aid.jpg') center/cover no-repeat rgba(0, 0, 0, 0.753);
-    filter: blur(3px) brightness(30%); /* Adjust the blur value */
+    filter: blur(3px) brightness(30%); 
     z-index: -1;
     
 }
@@ -38,14 +44,14 @@ body {
     margin-top: 10px;
 }
 
-.box {
+.box {  /* class "box" */
     position: relative;
     width: 45%;
-    height: 400px; /* Adjusted height to accommodate text */
+    height: 400px; 
     padding: 0px;
     background-color: #fff;
     box-shadow: 0 3% 6% rgba(0, 0, 0, 0.1);
-    margin: 15px; /* Adjusted margin value to 0 */
+    margin: 15px; 
     text-align: center;
     border: 10px solid #000;
     border-radius: 8px;
@@ -55,11 +61,11 @@ body {
     margin-bottom: 15px;
 }
 
-.box p {
+.box > p {
     margin-bottom: 0;
 
 }
-.box img {
+.box > img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -67,31 +73,31 @@ body {
 
 
 
-.text a {
+.text > a {  /* "a" on link, siin ma panin seadmed kõikidele linkidele mis on "text" classi sees */
     font-size: 40px;
     color: blanchedalmond;
 
 }
 
 
-.container {
+.container {  /* Ei oska öelda mis on container, lihtsalt mingi class */
     position: relative;
     z-index: 1;
 }
 
-.text {
+.text {    /* See on mul terve class "text", kõik tekst mis on sellel classis on selle seadmetega*/
     position: relative;
     color: rgb(255, 255, 255); /* Set text color to white for better visibility on the dark background */
     text-align: center;
 }
 
-h1 {
+h1 {     /* Siin ma tegelen main heading-iga, vahetan suurus, font-i, värvi */
     font-size: 100px;
     font-family: copperplate, fantasy;
     color: #ffffff;
 }
 
-p {
+p {    /* Siin ma vahetan tavalise teksti suurus, värv jne*/
     line-height: 1.6;
     font-size: 40px;
 }
