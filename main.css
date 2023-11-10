@@ -42,10 +42,10 @@ body {
     position: relative;
     width: 45%;
     height: 400px; /* Adjusted height to accommodate text */
-    padding: 15px;
+    padding: 0px;
     background-color: #fff;
     box-shadow: 0 3% 6% rgba(0, 0, 0, 0.1);
-    margin: 0; /* Adjusted margin value to 0 */
+    margin: 15px; /* Adjusted margin value to 0 */
     text-align: center;
     border: 10px solid #000;
     border-radius: 8px;
@@ -67,11 +67,12 @@ body {
 
 
 
-a {
+.text a {
     font-size: 40px;
     color: blanchedalmond;
 
 }
+
 
 .container {
     position: relative;
