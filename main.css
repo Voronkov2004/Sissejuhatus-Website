@@ -5,12 +5,24 @@ ENAM TEHA, ET KUI TEE EI SAA MIDAGI ARU, VAADAKE LÕPPUS*/
 NÄGU "height: 100%"   AGA KUI VAHETATE MIDAGI, SIIS PALUN PÄRAST MUUTUGE SEDA TAGASI NAGU SEE OLI ENNE*/
 
 body {   /* "body" seadmed */
+    text-decoration: none;
     font-family: Garamond, serif;
     margin: 0;
     padding: 0px;
     text-align: center;
     margin-top: 0px;
     background-color: #221b1b;
+}
+
+p {    /* Siin ma vahetan tavalise teksti suurus, värv jne*/
+    line-height: 1.6;
+    font-size: 40px;
+}
+
+h1 {     /* Siin ma tegelen main heading-iga, vahetan suurus, font-i, värvi */
+    font-size: 100px;
+    font-family: copperplate, fantasy;
+    color: #ffffff;
 }
 
 .image-background {  /* Siin palun teid mitte midagi ei teha, see võttis mul kõige rohkem aega */
@@ -42,33 +54,46 @@ body {   /* "body" seadmed */
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 10px;
+    
 }
 
 .box {  /* class "box" */
     position: relative;
     width: 45%;
-    height: 400px; 
-    padding: 0px;
-    background-color: #fff;
-    box-shadow: 0 3% 6% rgba(0, 0, 0, 0.1);
-    margin: 15px; 
+    min-height: 400px; 
+    padding: 15px; /* Add padding to the box */
+    background-color: hsl(0, 0%, 100%);
+    margin: 5px; 
     text-align: center;
-    border: 10px solid #000;
-    border-radius: 8px;
+    border: 8px solid #000; /* Add a border to the box */
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 15px;
+    
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
 }
+
 
 .box > p {
-    margin-bottom: 0;
-
-}
-.box > img {
-    width: 100%;
-    height: auto;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: auto;
     margin-bottom: 10px;
+    font-family: copperplate, fantasy;
+    color: rgb(42, 165, 155);
+    display: inline-block; /* Ensure the border wraps around the text */
+    border: 2px solid #000; /* Add a border to the text */
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.box > a {
+    text-decoration: none;
 }
 
 
@@ -91,13 +116,5 @@ body {   /* "body" seadmed */
     text-align: center;
 }
 
-h1 {     /* Siin ma tegelen main heading-iga, vahetan suurus, font-i, värvi */
-    font-size: 100px;
-    font-family: copperplate, fantasy;
-    color: #ffffff;
-}
 
-p {    /* Siin ma vahetan tavalise teksti suurus, värv jne*/
-    line-height: 1.6;
-    font-size: 40px;
-}
+
