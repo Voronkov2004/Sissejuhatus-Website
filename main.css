@@ -84,7 +84,7 @@ h1 {     /* Siin ma tegelen main heading-iga, vahetan suurus, font-i, värvi */
     margin-top: auto;
     margin-bottom: 10px;
     font-family: copperplate, fantasy;
-    color: rgb(42, 165, 155);
+    color: rgb(255, 255, 255);
     display: inline-block; /* Ensure the border wraps around the text */
     border: 2px solid #000; /* Add a border to the text */
     border-radius: 8px;
