@@ -1,10 +1,20 @@
 body {
     margin: 0;
     height: 200vh; /* Adjust the height based on your content or design */
-    background: 
-    url('pictures/Blake_Blog-Post.jpg') center/cover fixed,
-    url('pictures/Blake_Blog-Post.jpg') center/cover fixed;
-    backdrop-filter: blur(5px);
+
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('pictures/first-aid.jpg') center/cover fixed;
+
+    filter: blur(5px) brightness(60%);
+    
+    z-index: -1; /* Place the background behind other content */
 }
 
 h1 {
