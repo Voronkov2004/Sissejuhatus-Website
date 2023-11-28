@@ -2,7 +2,12 @@
 
 
 
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #FFFFFF;
+}
 
 .background {
     position: fixed;
@@ -15,4 +20,69 @@
     filter: blur(5px) brightness(60%);
     
     z-index: -1; /* Place the background behind other content */
+}
+
+
+header {
+    font-family: copperplate, fantasy;
+    font-size: 50px;
+    background-color: #000000;
+    color: #FF0000;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    letter-spacing: 1.5px;
+    font-family: copperplate, fantasy;
+    font-size: 50px;
+    color: #ffffff;
+}
+main {
+    max-width: 900px;
+    margin: 25px;
+}
+
+h1 {
+    color: #fffdfd;
+} 
+
+
+
+p, li {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.nb-text {
+    font-size: 30px;
+}
+
+section:first-child {
+    margin-bottom: 50px;
+}
+
+p1 {
+    font-family: copperplate, fantasy;
+    font-stretch: ultra-expanded;
+    color: rgb(255, 74, 74);
+    font-size: 30px;
+}
+
+.nb-container {
+    border-radius: 8px;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block; /* Make the container an inline-block element */
+    max-width: 100%; /* Ensure the container doesn't exceed the available width */
+    white-space: normal;
+    
+}
+
+.large-button {
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
 }
