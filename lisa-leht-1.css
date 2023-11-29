@@ -17,6 +17,8 @@ body {
     z-index: -1; /* Place the background behind other content */
 }
 
+
+
 h1 {
     font-size: 100px !important;
     font-family: copperplate, fantasy;
@@ -25,7 +27,7 @@ h1 {
     margin: 0;
     padding: 50px; /* Add padding to the h1 for better visibility */
     font-size: 50px;
-    background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent white background for better text visibility */
+    background: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background for better text visibility */
 }
 
 h2{
@@ -106,4 +108,10 @@ main {
     height: auto;
     width: 80%; /* Adjust the width based on your design */
     margin-top: 10px; /* Add some space between the title and the image */
+}
+
+.large-button {
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
 }
