@@ -1,15 +1,13 @@
-
-
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 10px;
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: #406A71;
+    text-align: center;
 }
 
 .background {
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -26,10 +24,14 @@ body {
 header {
     font-family: copperplate, fantasy;
     font-size: 50px;
-    background-color: #000000;
-    color: #FF0000;
+    background-color: #244a52;
+    border-radius: 8px;
+    border: 8px solid #1b373d;
     padding: 10px;
     text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 h2{
@@ -37,14 +39,24 @@ h2{
     font-family: copperplate, fantasy;
     font-size: 50px;
     color: #ffffff;
+    text-align: left;
 }
 main {
     max-width: 900px;
-    margin: 25px;
+    margin: 0px auto; /* Centers the main element horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    min-height: 100vh;
+    padding-bottom: 50px;
 }
 
 h1 {
     color: #fffdfd;
+    text-align: center;
+    font-family: copperplate, fantasy;
+    
 } 
 
 
@@ -53,6 +65,8 @@ p, li {
     font-size: 25px;
     line-height: 1.6;
     color: #ffffff;
+    text-align: left;
+    
 }
 
 .nb-text {
@@ -68,11 +82,14 @@ p1 {
     font-stretch: ultra-expanded;
     color: rgb(255, 74, 74);
     font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .nb-container {
+    background-color: #244a52;
     border-radius: 8px;
-    background: rgb(0, 0, 0);
+   
     padding: 20px;
     margin-top: 20px;
     display: inline-block; /* Make the container an inline-block element */
@@ -85,4 +102,23 @@ p1 {
     width: 200px;
     height: 80px;
     font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text-container {
+    width: 1250px;
+    text-align: center;
+    background-color: #244a52; /* Adjust as needed */
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: auto;
+    border-radius: 10px;
+    border: 8px solid #1b373d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+#additional-info {
+margin-top: 20px;
+
 }
