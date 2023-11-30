@@ -1,4 +1,4 @@
-let image = document.getElementById('pilt1');
+let image = document.getElementById('pilt2');
 function ZoomIn() {
     let width = image.clientWidth;
     let height = image.clientHeight;
