@@ -25,7 +25,7 @@ header {
     background-color: #244a52;
     border-radius: 8px;
     border: 8px solid #1b373d;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     letter-spacing: 1.5px;
     margin-top: 20px;
@@ -37,6 +37,12 @@ h1 {
     font-family: copperplate, fantasy;
     
 } 
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em; /* Vähendage suurust, kui ekraan on kitsam kui 768 pikslit */
+    }
+}
 
 h2{
     letter-spacing: 1.5px;
@@ -63,14 +69,6 @@ p{
 
 }   
 
-p1 {
-    font-family: copperplate, fantasy;
-    font-stretch: ultra-expanded;
-    color: rgb(255, 74, 74);
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
 
 ol, li{
@@ -103,12 +101,12 @@ main {
 }
 
 .nb-container {
-    padding: 20px;
-    margin-top: 20px;
-    display: inline-block; /* Make the container an inline-block element */
-    max-width: 100%; /* Ensure the container doesn't exceed the available width */
-    white-space: normal;
-    
+    font-family: copperplate, fantasy;
+    font-stretch: ultra-expanded;
+    color: rgb(255, 74, 74);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 .cpr-container {
     text-align: center;
@@ -130,7 +128,7 @@ main {
 }
 
 .text-container {
-    width: 1250px;
+    max-width: 100%;
     text-align: center;
     background-color: #244a52; /* Adjust as needed */
     padding-top: 20px;
@@ -140,4 +138,10 @@ main {
     border-radius: 10px;
     border: 8px solid #1b373d;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+@media screen and (max-width: 768px) {
+    .text-container {
+        padding: 20px 10px; /* Vähendage paddingut kitsamatel ekraanidel */
+    }
 }
