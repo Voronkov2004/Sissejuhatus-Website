@@ -1,10 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    
+    margin: 10px;
     padding: 0;
-    background-color: #FFFFFF;
-    max-width: 900px;
-    margin: 25px;
+    background-color: #406A71;
+    text-align: center;
 }
 
 .background {
@@ -24,26 +23,51 @@ body {
 header {
     font-family: copperplate, fantasy;
     font-size: 50px;
-    background-color: #000000;
-    color: #FF0000;
-    padding: 10px;
+    background-color: #244a52;
+    border-radius: 8px;
+    border: 8px solid #1b373d;
+    padding: 5px;
     text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 h2{
     letter-spacing: 1.5px;
     font-family: copperplate, fantasy;
     font-size: 50px;
     color: #ffffff;
+    text-align: left;
 }
 
+main {
+    max-width: 900px;
+    margin: 0px auto; /* Centers the main element horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
 
 h1 {
     color: #fffdfd;
+    text-align: center;
+    font-family: copperplate, fantasy;
 } 
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em; /* Vähendage suurust, kui ekraan on kitsam kui 768 pikslit */
+    }
+
+    
+}
 
 
 p, li {
+    text-align: left;
     font-size: 25px;
     line-height: 1.6;
     color: #ffffff;
@@ -62,4 +86,23 @@ p, li {
 
 section:first-child {
     margin-bottom: 50px;
+}
+
+.text-container {
+    max-width: 100%;
+    text-align: center;
+    background-color: #244a52; /* Adjust as needed */
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: auto;
+    border-radius: 10px;
+    border: 8px solid #1b373d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+@media screen and (max-width: 768px) {
+    .text-container {
+        padding: 20px 10px; /* Vähendage paddingut kitsamatel ekraanidel */
+    }
 }
