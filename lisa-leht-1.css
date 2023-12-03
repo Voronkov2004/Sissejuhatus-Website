@@ -20,21 +20,20 @@ body {
 
 
 header {
-    font-family: copperplate, fantasy;
+    font-family: verdana, sans-serif;
     font-size: 50px;
     background-color: #244a52;
     border-radius: 8px;
     border: 8px solid #1b373d;
     padding: 5px;
     text-align: center;
-    letter-spacing: 1.5px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 h1 {
     color: #fffdfd;
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: verdana, sans-serif;
     
 } 
 
@@ -46,7 +45,7 @@ h1 {
 
 h2{
     letter-spacing: 1.5px;
-    font-family: copperplate, fantasy;
+    font-family: verdana, sans-serif;
     color: whitesmoke;
     font-size: 50px;
     text-align: left;
@@ -61,7 +60,7 @@ h3{
 
 
 p{
-    font-family: sans-serif, arial;
+    font-family: verdana, sans-serif;
     font-size: 25px;
     line-height: 1.6;
     color: #ffffff;
@@ -72,7 +71,7 @@ p{
 
 
 ol, li{
-    font-family: sans-serif, arial;
+    font-family: verdana, sans-serif;
     margin-left: 0px;
     color:white;
     font-size: 25px;
@@ -101,7 +100,7 @@ main {
 }
 
 .nb-container {
-    font-family: copperplate, fantasy;
+    font-family: verdana, sans-serif;
     font-stretch: ultra-expanded;
     color: rgb(255, 74, 74);
     font-size: 30px;

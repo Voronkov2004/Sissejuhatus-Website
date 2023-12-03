@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: verdana, sans-serif;
     margin: 10px;
     padding: 0;
     background-color: #406A71;
@@ -22,21 +22,19 @@ body {
 
 
 header {
-    font-family: copperplate, fantasy;
+    font-family: verdana, sans-serif;
     font-size: 50px;
     background-color: #244a52;
     border-radius: 8px;
     border: 8px solid #1b373d;
     padding: 5px;
     text-align: center;
-    letter-spacing: 1.5px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 h2{
-    letter-spacing: 1.5px;
-    font-family: copperplate, fantasy;
+    font-family: verdana, sans-serif;
     font-size: 50px;
     color: #ffffff;
     text-align: left;
@@ -55,7 +53,7 @@ main {
 h1 {
     color: #fffdfd;
     text-align: center;
-    font-family: copperplate, fantasy;
+    font-family: verdana, sans-serif;
     
 } 
 
@@ -85,7 +83,7 @@ section:first-child {
 
 
 .nb-container {
-    font-family: copperplate, fantasy;
+    font-family: verdana, sans-serif;
     font-stretch: ultra-expanded;
     color: rgb(255, 74, 74);
     font-size: 30px;
