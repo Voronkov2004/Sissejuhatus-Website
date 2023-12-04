@@ -12,3 +12,5 @@ function toggleSectionVisibility() {
         section.style.display = 'none';
     }
 }
+
+// Seda tegi chat.gpt
