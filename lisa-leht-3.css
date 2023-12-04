@@ -104,3 +104,14 @@ section:first-child {
         padding: 20px 10px; /* Vähendage paddingut kitsamatel ekraanidel */
     }
 }
+
+.nb-container {
+    font-family: verdana, sans-serif;
+    font-stretch: ultra-expanded;
+    color: rgb(255, 74, 74);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+ 
+    
+}
